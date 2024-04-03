@@ -42,7 +42,7 @@ export function Main(): React.ReactElement {
   const [downKey, setDownKey] = useState<boolean>(false);
   const [leftKey, setLeftKey] = useState<boolean>(false);
   const [rightKey, setRightKey] = useState<boolean>(false);
-  // Clicked to tappoed position of the canvas
+  // Move to clicked or tapped position of the canvas
   const [movePosition, setMovePosition] = useState<Position | null>(null);
   // Flags to show the message box
   const [instructionsShown, setInstructionsShown] = useState<boolean>(true);
